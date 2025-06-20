@@ -20,7 +20,6 @@ You will be working with **React** for the frontend, and **SQLite + Node.js** fo
 - ✅ Mock data for streaks, adherence rates, and logs
 - ✅ Photo upload interface (non-functional)
 - ✅ Notification settings UI (non-functional)
-- ❌ All data currently stored in local state (no backend persistence)
 
 ---
 
