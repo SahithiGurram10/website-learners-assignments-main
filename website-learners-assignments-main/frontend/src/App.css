@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color-1:#00c367;
+  --primary-color-2:#2385f2;
+}
+
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+
+input, select, button, textarea, a {
+  display: block;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: 1px dashed var(--primary-color-1);
+}
+
+h1 {
+  padding-block: 20px;
+}
+
+
+#root {
+  width: 100%;
+}
+
+body {
+  background-color: #eff8fd;
+  width: 100%;
+  font-family: "Farro";
+}
+
+.section {
+  padding-block: 50px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+
+
+.text-center {
+  text-align: center;
+}
+
+p {
+  padding-block: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: var(--primary-color-2);
+  border: none;
+  border-radius: 8px;
+}
+
+
+/* Auth */
+
+.auth-form-bg {
+  height: 100dvh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.auth-form-bg  form{
+  background-color: #fff;
+  padding: 30px 40px;
+}
+
+.auth-form-bg  input {
+  margin-block: 25px;
+  padding: 5px 15px;
+}
+
+.login h2 {
+  color: var(--primary-color-2);
+}
+
+.auth-form-bg .flex-container {
+  gap: 30px;
+}
+
+
+
